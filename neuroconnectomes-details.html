@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v2.0.3
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Chenyang Fang</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.facebook.com/profile.php?id=100009250203914" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/cyfang_/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/cyfang/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfoio Details</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Portfoio Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="portfolio-details-container">
+
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="assets/img/portfolio/neural_1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/neural_connectomes.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/neural_result_1.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="portfolio-info">
+            <h3>Project information</h3>
+            <ul>
+              <li><strong>Category</strong>: Deep Learning</li>
+              <li><strong>Co-Authors</strong>: Rui Shen, Rongguang Wang</li>
+              <li><strong>Project date</strong>: Dec, 2019</li>
+              <li><strong>Github</strong>: <a href="#">https://github.com/Sherry-SR/dl_graph_connectomes</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="portfolio-description">
+          <h2>Abstract</h2>
+          <p>Brain connectomes is a comprehensive map that shows the structural and functional connectivity of neural pathways in the human brain. Analyzing the information encoded by connectomes can promote a critical understanding of the early diagnosis of many neuropsychiatric disorders, such as Autism Spectrum Disorder (ASD). Brain connectomes data is usually represented as a graph with a connectivity matrix illustrating the strength of neural connections (e.g. temporal correlation of brain activities) between brain regions. In contrast to classical graph analysis methods that depend on hand-engineering descriptors, recent progress of extending deep learning approaches to non-grid data have opened new opportunities for building predictive models for brain connectomes in a data-driven learning fashion. However, due to the existence of large noise and limited training samples, directly applying a deep network is prone to over-fitting. In this work, we present a novel graph convolutional neural network (GCN) with node-wise batch normalization and embedding normalization 1 for better generalization. We performed experiments on the ABIDE dataset and achieved state-of-the-art 68.7% classification accuracy.
+          </p>
+          <h2>Method</h2>
+          <p>Method
+In this section, we described our approach for classifying subjects with ASD. Figure 1 illustrates an overview of the proposed approach for ASD classification. In the proposed method, we used the first-order approximation of GCN in the first stage to obtain embedding for a graph, and a multi-layer perceptron (MLP) in the second stage for the classification task. Multiple normalization tricks were used to improve the stability in the training process and achieve better generalization. A Dropout layer was used between MLP to prevent further over-fitting.</p>
+          <h2>Data Set</h2>
+          <p>The Autism Brain Imaging Data Exchange (ABIDE) - ABIDE is a multi-site dataset openly sharing anatomical and functional brain imaging data of 539 individuals diagnosed with Autism Spectrum Disorder (ASD), as well as 573 normal controls (NC). We used the data processed by the Configurable Pipeline for the Analysis of Connectomes (CPAC) [11]. This pipeline performs motion correction, global mean intensity normalization and standardization of fMRI data to MNI space</p>
+          <p>Functional Connectomes - Functional connectomes were generated by first averaging rs-fMRI time series for each ROI, then calculating the temporal Pearson correlation coefficients between each pair of averaged fMRI signals.</p>
+          <h2>Experiments</h2>
+          <p>In our experiments, we performed a node-level connectomes-based classification task of ASD v.s. NC using 4 deep learning frameworks: GCN, GCN with batch normalization (GCN-B), GCN with embedding normalization (GCN-E), and GCN with both node and embedding normalization (GCN- NE). We conducted 10-fold cross-validation on the ABIDE dataset. Results are also compared with other state-of-art voxel-level learning methods.</p>
+          <h2>Results</h2>
+          <p>Table 1: Comparison with Node-level Learning Methods. \begin{tabular}{cccccccccccc} \hline Fold & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & Average \\ \hline \hline GCN-B & 61.0 & 58.4 & 66.2 & 59.7 & 63.6 & 72.7 & 62.3 & 63.6 & 66.2 & 64.9 & 63.9 \\ \hline GCN-E & $\mathbf{6 8 . 6}$ & 62.3 & 66.2 & 68.8 & 64.9 & 62.3 & $\mathbf{7 2 . 7}$ & 66.2 & 68.8 & $\mathbf{6 6 . 2}$ & 66.7 \\ \hline GCN-NE & 66.2 & $\mathbf{6 7 . 5}$ & $\mathbf{6 7 . 5}$ & $\mathbf{7 0 . 1}$ & $\mathbf{6 7 . 5}$ & $\mathbf{7 5 . 3}$ & 64.9 & $\mathbf{7 1 . 4}$ & $\mathbf{7 0 . 2}$ & $\mathbf{6 6 . 2}$ & $\mathbf{6 8 . 7}$ \\ \hline GCN failed to converge or achieved lower than $55 \%$ accuracy. & & & & & \end{tabular} Table 2: Comparison with State-of-art Voxel-level Learning Methods [1] \begin{tabular}{ccccccc} \hline Methods & Ridge & SVM $\left(l_{1}\right)$ & SVM $\left(l_{2}\right)$ & FCN & 3D-CNN & GCN-NE (ours) \\ \hline \hline Accuracy & 66.7 & 65.3 & 66.7 & 67.2 & 68.6 & $\mathbf{6 8 . 7}$ \\ \hline \end{tabular}
+          <p>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
